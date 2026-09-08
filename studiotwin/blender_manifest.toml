@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "studiotwin"
+version = "0.1.0"
+name = "StudioTwin"
+tagline = "Import StudioTwin assets into Blender"
+maintainer = "RealTwin Solutions"
+type = "add-on"
+blender_version_min = "5.1.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Development"]
+
+[permissions]
+files = "Reads StudioTwin assets from the local filesystem"
