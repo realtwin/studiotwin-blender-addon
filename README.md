@@ -71,9 +71,3 @@ supported Blender version:
 blender --command extension validate
 blender --command extension build
 ```
-
-Run the importer smoke test inside Blender:
-
-```bash
-blender --background --factory-startup --python tests/blender_importers_smoke.py
-```
